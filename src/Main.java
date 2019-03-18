@@ -13,11 +13,11 @@ import java.util.Map.Entry;
 public class Main {
     // Legge dal testo e toglie caratteri speciali ( ();:,. ). Inoltre imposta tutto in Lowercase
     public static char[] readTextFromFile() {
-        Path path = Paths.get("/Users/marco/IdeaProjects/TextBigrams&Trigrams/src/text copy.txt");
+        Path path = Paths.get("/Users/giuliocalamai/IdeaProjects/ParallelComputing-TextBigrams-Trigrams/src/text.txt");
 
         try {
             Stream<String> lines = Files.lines(path);
-            char[] filestring = (lines.collect(Collectors.joining())).replaceAll("[ \\[\\]'();:,.]", "").toCharArray();
+            char[] filestring = (lines.collect(Collectors.joining())).replaceAll("[ \" % $ £ & - + \\[\\]'();:,.]", "").toCharArray();
 
             for(int i = 0; i < filestring.length - 1; ++i) {
                 if (Character.isUpperCase(filestring[i])) {
