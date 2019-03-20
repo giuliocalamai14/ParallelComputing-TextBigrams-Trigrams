@@ -12,7 +12,7 @@ public class Main {
     // Legge dal testo e toglie caratteri speciali ( ();:,. ). Inoltre imposta tutto in Lowercase
     public static char[] readTextFromFile() {
         //Path path = Paths.get("/Users/giuliocalamai/IdeaProjects/ParallelComputing-TextBigrams-Trigrams/src/text.txt");
-        Path path = Paths.get("/Users/marco/IdeaProjects/TextBigrams&Trigrams/src/text.txt");
+        Path path = Paths.get("/Users/marco/Desktop/ParallelComputing-TextBigrams-Trigrams/Java/src/text.txt");
 
         try {
             Stream<String> lines = Files.lines(path);
@@ -124,7 +124,7 @@ public class Main {
         char[] text = readTextFromFile();
         int n_grams = 3;
 
-        //startSequential(text,n_grams);
-        startParallel(text,n_grams);
+        startSequential(text,n_grams);
+        //startParallel(text,n_grams);
     }
 }
