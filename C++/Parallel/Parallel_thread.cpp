@@ -7,10 +7,6 @@
 using namespace std;
 
 
-int n, begin, stop, id;
-
-unordered_map<string, int> map;
-
 Parallel_thread::Parallel_thread(int id, int n, int begin, int stop, string fileString){
 	this->id = id;
 	this->n = n;
@@ -19,7 +15,7 @@ Parallel_thread::Parallel_thread(int id, int n, int begin, int stop, string file
 	this->fileString = fileString;
 }
 
-int *Parallel_thread::run(){	 
+int* Parallel_thread::run(){	 
 
 	unordered_map<string, int> map;
 

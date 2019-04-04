@@ -31,7 +31,5 @@ int Thread::start(){
 
 void* Thread::runThread(void* arg)
 {
-	Thread* aThread = static_cast<Thread*>(arg);
-	return aThread->run();
-	// return (static_cast<Thread*>(arg))->run();
+	return (static_cast<Thread*>(arg))->run();
 }

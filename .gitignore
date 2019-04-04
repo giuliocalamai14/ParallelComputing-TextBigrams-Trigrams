@@ -1,3 +1,7 @@
-.idea/
-.cmake_build_debug/
+./C++/Sequential/.idea/
+./C++/Sequential/cmake_build_debug/
+./C++/Sequential/CMakeList.txt
 
+./C++/Parallel/.idea/
+./C++/Parallel/cmake_build_debug/
+./C++/Parallel/CMakeList.txt

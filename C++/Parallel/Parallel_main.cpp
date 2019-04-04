@@ -11,9 +11,10 @@
 #include <time.h>
 
 #include "Parallel_thread.h"
-#include "Parallel_thread.cpp"
-#include "Thread.h"
-#include "Thread.cpp"
+// PER SUBLIME DECOMMENTARE
+// #include "Parallel_thread.cpp"
+// #include "Thread.h"
+// #include "Thread.cpp"
 
 using namespace std;
 
