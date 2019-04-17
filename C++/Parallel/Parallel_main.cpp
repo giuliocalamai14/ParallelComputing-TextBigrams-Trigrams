@@ -38,7 +38,7 @@ char* readTextFromFile() {
  	char * buffer;
  	size_t result;
 
-	pFile = fopen ( "text.txt" , "r" );
+	pFile = fopen ( "textBig.txt" , "r" );
 	if (pFile==NULL) {
 		fputs ("File not found",stderr); exit (1);
 	}
@@ -101,8 +101,8 @@ int main(int argc, char const *argv[]){
 
 	int len = txt.length();
 
-	unsigned int nThread = 2;		//number of threads
-	int n = 2;		//dimension of n-grams 
+	unsigned int nThread = 4;		//number of threads
+	int n = 3;		//dimension of n-grams
 
 	Parallel_thread *threads[nThread];		//array of threads
 
@@ -136,7 +136,6 @@ int main(int argc, char const *argv[]){
 	}
 
   	string elapsed_time = to_string( ((end.tv_sec - start.tv_sec) * 1000.0 + ( end.tv_usec - start.tv_usec) / 1000.0) / 1.e3 );
-
   	cout << elapsed_time << endl;
 
 	return 0;

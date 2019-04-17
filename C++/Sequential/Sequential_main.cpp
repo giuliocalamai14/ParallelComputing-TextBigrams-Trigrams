@@ -26,6 +26,7 @@ void removeChar(char* s, char charToRemove){
     *temp = 0; // eliminates the last redundant element
 }
 
+
 char* readTextFromFile() {
 
 	FILE * pFile;
@@ -33,7 +34,7 @@ char* readTextFromFile() {
  	char * buffer;
  	size_t result;
 
-	pFile = fopen ( "text.txt" , "r" ); // open the file .txt with the command to read and save on pFile the pointer at that file
+	pFile = fopen ( "textBig.txt" , "r" ); // open the file .txt with the command to read and save on pFile the pointer at that file
 	if (pFile==NULL) { 
 		fputs ("File not found",stderr); exit (1); // fputs is used for insert a string message in a file. 
                                                    // In this case is used "stderr" for default error messages
@@ -79,36 +80,36 @@ char* readTextFromFile() {
 }
 
 unordered_map<string, int> computeNgrams(int n, char* fileString){
+    struct timeval startRead,endRead;
 
-	unordered_map<string, int> map;
+    unordered_map<string, int> map;
+    string fileStr = fileString;
 
-	string fileStr = fileString;
-	
-	fileStr.erase(remove(fileStr.begin(), fileStr.end(), '\n') , fileStr.end()); // REMOVE returns an iterator pointing to the first of these tail elements.
-	                                                                             // ERASE delete these items that remain in memory but in an unspecified state
+	fileStr.erase(remove(fileStr.begin(), fileStr.end(), '\n') , fileStr.end());
 
-	for (int i = n-1; i < fileStr.length(); i++){
+    gettimeofday(&startRead, NULL);
+	for (int i = 0; i < fileStr.length()-n+1; i++){
 		string key = "";
-
 		// used for create an n-grams
-		for(int j=n-1; j>=0; j--)
+		for(int j=0; j<n; j++)
 		{
-			key = key + fileStr[i-j];
+			key = key + fileStr[i+j];
 		}
+		
 		// control if there's other n-grams "key" in the map.
-		if(map.count(key) == 0)   // FALSE -> insert the new n-grams in the map with value=1
+		if(map.find(key) == map.end())   // FALSE -> insert the new n-grams in the map with value=1
 		{
-			pair<string,int> pair (key,1); 
-            map.insert(pair);
+            map.insert({key,1});
         }
         else // TRUE -> increments the value associated with "key"
         {
-            if(map.count(key) >= 1)
-            {
-                map[key] += 1;
-            }
+            map[key] += 1;
         }
     }
+    gettimeofday(&endRead, NULL);
+    double elapsed_timeRead = ((endRead.tv_sec  - startRead.tv_sec) * 1000000u + endRead.tv_usec - startRead.tv_usec) / 1.e6;
+    cout << elapsed_timeRead << endl;
+
 	return map;
 }
 
@@ -120,13 +121,10 @@ int main(int argc, char const *argv[]){
 	struct timeval start, end;  // The struct timeval structure represents an elapsed time. It is declared in sys/time.h
 								// Has "time_t tv_sec" that represents elapsed time in seconds and "long int tv_usec" represent elapsed time in microseconds
   	gettimeofday(&start, NULL); // the function uses variables of the struct timeval and get current the time of when it was called
-
   	unordered_map<string, int> map = computeNgrams(3, text);
-
   	gettimeofday(&end, NULL);
 
   	double elapsed_time = ((end.tv_sec  - start.tv_sec) * 1000000u + end.tv_usec - start.tv_usec) / 1.e6; // calcolate the elapsed time using the information memorized in the struct timeval thanks to the function gettimeofday()
-
   	cout << elapsed_time << endl;
 
   	// Print al the n-grams with the corresponding value
