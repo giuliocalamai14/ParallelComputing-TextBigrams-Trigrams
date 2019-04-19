@@ -2,17 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="022093b5-b781-4eeb-ba87-27803ab9e30c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Parallel/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Parallel/Parallel_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Parallel/Parallel_main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Parallel/text.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Sequential/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Parallel/cmake-build-debug/text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Parallel/cmake-build-debug/textBig.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Sequential/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Sequential/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../C++/Sequential/Sequential_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Sequential/Sequential_main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Parallel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Sequential.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Sequential/cmake-build-debug/text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Sequential/cmake-build-debug/textBig.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Sequential/textBig.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Parallel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Parallel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Parallel/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Parallel/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Parallel/text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Parallel/textBig.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/textBig.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sequential/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sequential/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sequential/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sequential/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sequential/out/production/Sequential/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sequential/out/production/Sequential/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sequential/out/production/Sequential/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sequential/out/production/Sequential/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sequential/out/production/Sequential/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sequential/out/production/Sequential/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sequential/out/production/Sequential/Sequential.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sequential/out/production/Sequential/Sequential.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sequential/out/production/Sequential/text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sequential/out/production/Sequential/textBig.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sequential/text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sequential/textBig.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="82" column="32" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
+            <state relative-caret-position="272">
+              <caret line="16" column="135" selection-start-line="16" selection-start-column="135" selection-end-line="16" selection-end-column="135" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,6 +75,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -68,14 +88,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555427649625" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555684562205" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -117,17 +135,18 @@
       <updated>1555421307028</updated>
       <workItem from="1555421310111" duration="1272000" />
       <workItem from="1555428259876" duration="9000" />
+      <workItem from="1555507691049" duration="1471000" />
+      <workItem from="1555685174208" duration="10000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1281000" />
+    <option name="totallyTimeSpent" value="2762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -164,8 +183,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="82" column="32" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
+        <state relative-caret-position="272">
+          <caret line="16" column="135" selection-start-line="16" selection-start-column="135" selection-end-line="16" selection-end-column="135" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

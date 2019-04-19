@@ -14,7 +14,7 @@ public class Main {
         /*
             Legge dal testo e toglie caratteri speciali ( ();:,. ). Inoltre imposta tutto in Lowercase
         */
-        Path path = Paths.get("/Users/marco/Project/ParallelComputing-TextBigrams-Trigrams/Java/Parallel/out/production/Parallel/text.txt");
+        Path path = Paths.get("/Users/marco/Project/ParallelComputing-TextBigrams-Trigrams/Java/Parallel/out/production/Parallel/text50KB.txt");
 
         try {
             Stream<String> lines = Files.lines(path);
@@ -66,7 +66,7 @@ public class Main {
     public static void main(String[] args) {
         char[] text = readTextFromFile();  // leggo il testo
         int n_g = 3;   // set n_grams
-        int n_thread = 4;  // set thread number
+        int n_thread = 8;  // set thread number
 
         int fileLen = text.length;  // salvo la lunghezza del testo
 

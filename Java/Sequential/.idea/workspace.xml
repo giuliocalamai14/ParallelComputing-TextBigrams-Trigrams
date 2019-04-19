@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40ecf633-985a-463b-a02b-3c6390dbdae1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Parallel/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Parallel/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Parallel/Parallel_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Parallel/Parallel_main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Parallel/text.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Sequential/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++/Sequential/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Sequential/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../C++/Sequential/Sequential_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Sequential/Sequential_main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Parallel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Sequential.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sequential/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sequential/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sequential/text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sequential/textBig.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/textBig.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="58" column="2" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
+            <state relative-caret-position="238">
+              <caret line="14" column="138" lean-forward="true" selection-start-line="14" selection-start-column="138" selection-end-line="14" selection-end-column="138" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,7 +88,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555428522697" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555507671492" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -131,12 +129,12 @@
       <option name="presentableId" value="Default" />
       <updated>1555420509027</updated>
       <workItem from="1555420510304" duration="3536000" />
-      <workItem from="1555428273295" duration="406000" />
+      <workItem from="1555428273295" duration="1378000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3942000" />
+    <option name="totallyTimeSpent" value="4914000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -151,7 +149,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28313252" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28313252" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -179,8 +177,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="58" column="2" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
+        <state relative-caret-position="238">
+          <caret line="14" column="138" lean-forward="true" selection-start-line="14" selection-start-column="138" selection-end-line="14" selection-end-column="138" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

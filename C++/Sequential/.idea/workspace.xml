@@ -12,17 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c68f1e09-7731-4f21-a0f4-90b927f2f152" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Java/Parallel/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Parallel/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Parallel/Parallel_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Parallel/Parallel_main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Parallel/text.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Sequential_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sequential_main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/src/Parallel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/src/Sequential.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/src/text.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sequential_main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="8" />
+            <state relative-caret-position="219">
+              <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -64,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -132,23 +122,22 @@
       <workItem from="1554370321471" duration="298000" />
       <workItem from="1554370659068" duration="172000" />
       <workItem from="1555069172625" duration="1281000" />
-      <workItem from="1555418100793" duration="5116000" />
+      <workItem from="1555418100793" duration="5637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6867000" />
+    <option name="totallyTimeSpent" value="7388000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -178,8 +167,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sequential_main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="8" />
+        <state relative-caret-position="219">
+          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

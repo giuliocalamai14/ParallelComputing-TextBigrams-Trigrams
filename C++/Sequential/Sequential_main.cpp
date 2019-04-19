@@ -95,7 +95,7 @@ unordered_map<string, int> computeNgrams(int n, char* fileString){
 		{
 			key = key + fileStr[i+j];
 		}
-		
+
 		// control if there's other n-grams "key" in the map.
 		if(map.find(key) == map.end())   // FALSE -> insert the new n-grams in the map with value=1
 		{
