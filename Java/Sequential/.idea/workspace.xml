@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40ecf633-985a-463b-a02b-3c6390dbdae1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../C++/Sequential/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Sequential/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/Sequential/Sequential_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/Sequential/Sequential_main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sequential/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sequential/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sequential/text.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sequential/textBig.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/textBig.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="138" lean-forward="true" selection-start-line="14" selection-start-column="138" selection-end-line="14" selection-end-column="138" />
+            <state relative-caret-position="232">
+              <caret line="14" column="138" selection-start-line="14" selection-start-column="138" selection-end-line="14" selection-end-column="138" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,6 +62,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,8 +75,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -130,17 +122,17 @@
       <updated>1555420509027</updated>
       <workItem from="1555420510304" duration="3536000" />
       <workItem from="1555428273295" duration="1378000" />
+      <workItem from="1555685190722" duration="225000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4914000" />
+    <option name="totallyTimeSpent" value="5139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -177,8 +169,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="138" lean-forward="true" selection-start-line="14" selection-start-column="138" selection-end-line="14" selection-end-column="138" />
+        <state relative-caret-position="232">
+          <caret line="14" column="138" selection-start-line="14" selection-start-column="138" selection-end-line="14" selection-end-column="138" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
