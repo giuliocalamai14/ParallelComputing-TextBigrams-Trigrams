@@ -1,0 +1,11 @@
+# Remove all files with .DS_Store extension 
+*.DS_Store
+
+# Remove all folders named out
+out/
+
+# Remove all file named txt.txt
+#txt.txt
+text50MB.txt
+text100MB.txt
+text150MB.txt
