@@ -12,10 +12,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5edc982-603d-4c7c-8d2c-4df0eef56cf0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Parallel_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Parallel_main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parallel_thread.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Parallel_thread.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parallel_thread.h" beforeDir="false" afterPath="$PROJECT_DIR$/Parallel_thread.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Parallel.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Parallel.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Parallel.dir/Parallel_main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Parallel.dir/Parallel_main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Parallel.dir/Parallel_thread.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Parallel.dir/Parallel_thread.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sequential/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sequential/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Sequential/Sequential_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Sequential/Sequential_main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sequential/cmake-build-debug/CMakeFiles/Sequential.dir/Sequential_main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Sequential/cmake-build-debug/CMakeFiles/Sequential.dir/Sequential_main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sequential/cmake-build-debug/Sequential" beforeDir="false" afterPath="$PROJECT_DIR$/../Sequential/cmake-build-debug/Sequential" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../terminal_exe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../terminal_exe.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Parallel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Parallel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Sequential/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Sequential/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/terminal_exe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/terminal_exe.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,10 +42,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Parallel_main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
+            <state relative-caret-position="-862">
+              <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Parallel_thread.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,6 +71,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Parallel_thread.cpp" />
+        <option value="$PROJECT_DIR$/Parallel_thread.h" />
         <option value="$PROJECT_DIR$/Parallel_main.cpp" />
       </list>
     </option>
@@ -118,17 +144,18 @@
       <updated>1554370876745</updated>
       <workItem from="1554370878078" duration="430000" />
       <workItem from="1555071870856" duration="870000" />
+      <workItem from="1557135921637" duration="1927000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1300000" />
+    <option name="totallyTimeSpent" value="3227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16881259" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -157,12 +184,27 @@
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Thread.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Parallel_thread.h">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding>
+            <element signature="e#53#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Parallel_thread.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
+        <state relative-caret-position="288">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
@@ -171,8 +213,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Parallel_main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
+        <state relative-caret-position="-862">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

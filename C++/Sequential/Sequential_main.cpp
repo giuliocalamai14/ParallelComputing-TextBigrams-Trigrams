@@ -34,7 +34,7 @@ char* readTextFromFile() {
  	char * buffer;
  	size_t result;
 
-	pFile = fopen ( "textBig.txt" , "r" ); // open the file .txt with the command to read and save on pFile the pointer at that file
+	pFile = fopen ( "../text/text50KB.txt" , "r" ); // open the file .txt with the command to read and save on pFile the pointer at that file
 	if (pFile==NULL) { 
 		fputs ("File not found",stderr); exit (1); // fputs is used for insert a string message in a file. 
                                                    // In this case is used "stderr" for default error messages
@@ -99,17 +99,14 @@ unordered_map<string, int> computeNgrams(int n, char* fileString){
 		// control if there's other n-grams "key" in the map.
 		if(map.find(key) == map.end())   // FALSE -> insert the new n-grams in the map with value=1
 		{
-            map.insert({key,1});
+            pair<string,int> pair (key,1);
+            map.insert(pair);
         }
         else // TRUE -> increments the value associated with "key"
         {
             map[key] += 1;
         }
     }
-    gettimeofday(&endRead, NULL);
-    double elapsed_timeRead = ((endRead.tv_sec  - startRead.tv_sec) * 1000000u + endRead.tv_usec - startRead.tv_usec) / 1.e6;
-    cout << elapsed_timeRead << endl;
-
 	return map;
 }
 

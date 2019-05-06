@@ -13,6 +13,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c68f1e09-7731-4f21-a0f4-90b927f2f152" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Sequential_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sequential_main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Parallel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Parallel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Sequential/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Sequential/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/terminal_exe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/terminal_exe.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sequential_main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+            <state relative-caret-position="648">
+              <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -54,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -123,14 +126,16 @@
       <workItem from="1554370659068" duration="172000" />
       <workItem from="1555069172625" duration="1281000" />
       <workItem from="1555418100793" duration="5637000" />
+      <workItem from="1557134184124" duration="1516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7388000" />
+    <option name="totallyTimeSpent" value="8904000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -167,8 +172,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sequential_main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+        <state relative-caret-position="648">
+          <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
