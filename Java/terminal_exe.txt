@@ -4,8 +4,12 @@ Per eseguire da Terminale:
 		1) Creare directory con all'intero:
 			-Main.java
 			-Sequential.java
-			-text.txt
-			-textBig.txt
+			-text50KB.txt
+			-text500KB.txt
+			-text10MB.txt
+			-text50MB.txt
+			-text100MB.txt
+			-text150MB.txt
 		2) Recarsi all'interno della directory creata
 		3) $ javac Main.class -d out
 		4) $ cd ./out
@@ -15,8 +19,14 @@ Per eseguire da Terminale:
 		1) Creare directory con all'intero:
 			-Main.java
 			-Parallel.java
-			-text.txt
-			-textBig.txt
+			-Main.java
+			-Sequential.java
+			-text50KB.txt
+			-text500KB.txt
+			-text10MB.txt
+			-text50MB.txt
+			-text100MB.txt
+			-text150MB.txt
 		2) Recarsi all'interno della directory creata
 		3) $ javac Main.class -d out
 		4) $ cd ./out
