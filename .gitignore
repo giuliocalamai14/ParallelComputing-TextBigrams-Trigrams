@@ -4,8 +4,13 @@
 # Remove all folders named out
 out/
 
+# Remove all folders named out
+latex_report_bigrams&trigrams/
+
 # Remove all file named txt.txt
 #txt.txt
 text50MB.txt
 text100MB.txt
 text150MB.txt
+
+latex_report_bigrams&trigrams

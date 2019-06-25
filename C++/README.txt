@@ -13,4 +13,7 @@ Per eseguire da terminale:
 
 Per la versione parallela è possibile anche includere i file Parallel_thread.cpp e Thread.cpp nel file Parallel_main.cpp in modo da poter fare nel punto 1) solo:
 	$ g++ -o prova Parallel_main.cpp
-	
+----------------------------------------------------------
+Per eseguire con CLion
+	-Sequenziale: Aprire il progetto Sequential con CLion
+	-Parallella: Aprire il progetto Parallel con CLion

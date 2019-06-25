@@ -1,5 +1,4 @@
 Per eseguire da Terminale:
-
 	-Sequential
 		1) Creare directory con all'intero:
 			-Main.java
@@ -31,3 +30,7 @@ Per eseguire da Terminale:
 		3) $ javac Main.class -d out
 		4) $ cd ./out
 		5) java Main
+----------------------------------------------------------
+Per eseguire con IntelliJ
+	-Sequenziale: Aprire il progetto Sequential con ItelliJ
+	-Parallella: Aprire il progetto Parallel con ItelliJ
