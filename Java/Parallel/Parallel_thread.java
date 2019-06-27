@@ -11,6 +11,7 @@ public class Parallel_thread implements Callable<ConcurrentHashMap<String, Integ
 
     StringBuilder builder;
 
+
     public Parallel_thread (String id, double start, double stop, int n, char[] fileString){   //n is the n-grams dimension
 
         this.id = id;
@@ -31,7 +32,7 @@ public class Parallel_thread implements Callable<ConcurrentHashMap<String, Integ
 
         for (double i = this.start + n - 1; i <= this.stop; i++)
         {
-            builder = new StringBuilder();       //builder di bigrammi
+            builder = new StringBuilder();      
             for (double j = n - 1; j >= 0; j--)
             {
                 builder.append(this.fileString[(int)(i - j)]);

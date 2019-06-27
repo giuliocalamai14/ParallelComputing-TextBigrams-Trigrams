@@ -1,10 +1,15 @@
 import java.util.HashMap;
 
 public class Sequential {
-    public Sequential() {  //costruttore
+
+    // Empty constructor
+    public Sequential() {
+
     }
 
     public static HashMap<String, Integer> computeNGrams(int n, char[] fileString) {
+        // input: n = number of grams ; fileString = text
+        // return: HashMap that contains bigrams or trigrams with their occorrence values
         HashMap<String, Integer> hashMap = new HashMap();
 
         for(int i = 0; i < fileString.length - n + 1; i++) {
@@ -14,7 +19,7 @@ public class Sequential {
                 builder.append(fileString[i + j]);
             }
 
-            String key = builder.toString(); // converte in String
+            String key = builder.toString(); // convert to String
 
             if (!hashMap.containsKey(key)) {
                 hashMap.put(key, 1);
@@ -23,8 +28,6 @@ public class Sequential {
                 hashMap.put(key, hashMap.get(key) + 1);
             }
         }
-
-        //System.out.println(n + "-grams:");
         return hashMap;
     }
 

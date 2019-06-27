@@ -11,9 +11,7 @@ import java.util.stream.Stream;
 public class Main {
 
     public static char[] readTextFromFile() {
-        /*
-            Legge dal testo e toglie caratteri speciali ( ();:,. ). Inoltre imposta tutto in Lowercase
-        */
+    // Read from the text and remove special characters ( ();:,. ). Also set all in Lowercase
         Path path = Paths.get("/Users/marco/Project/ParallelComputing-TextBigrams-Trigrams/Java/Parallel/out/production/Parallel/text50KB.txt");
 
         try {
@@ -36,9 +34,7 @@ public class Main {
 
 
     public static ConcurrentHashMap<String, Integer> HashMerge(ConcurrentHashMap<String, Integer> n_grams, ConcurrentHashMap<String, Integer> finalNgrams) {
-        /*
-            Fa il merge delle mappe generate da ciascun thread
-         */
+    // input: n_grams = portion of text executed by threads ; finalNgrams: final HashMap
         for (ConcurrentHashMap.Entry<String, Integer> entry : n_grams.entrySet()) {
             int newValue = entry.getValue();
             Integer existingValue = finalNgrams.get(entry.getKey());
@@ -64,20 +60,20 @@ public class Main {
 
     // MAIN
     public static void main(String[] args) {
-        char[] text = readTextFromFile();  // leggo il testo
+        char[] text = readTextFromFile();  // read text
         int n_g = 3;   // set n_grams
-        int n_thread = 8;  // set thread number
+        int n_thread = 8;  // set threads number
 
-        int fileLen = text.length;  // salvo la lunghezza del testo
+        int fileLen = text.length;  // save text length
 
-        ConcurrentHashMap<String, Integer> finalNgrams = new ConcurrentHashMap(); // Creo una HashMap contente <gram, value>
-        ArrayList<Future> futuresArray = new ArrayList<>();  // Creo una ArrayList di Future nel quale ci inserirò i thread
+        ConcurrentHashMap<String, Integer> finalNgrams = new ConcurrentHashMap(); // Create ConcurrentHashMap cointaining <gram, value>
+        ArrayList<Future> futuresArray = new ArrayList<>();  // Create an ArrayList of Future that will contain the threads
         ExecutorService executor = Executors.newFixedThreadPool(n_thread);
 
         long start, end;
         start = System.currentTimeMillis();
 
-        double k = Math.floor(fileLen/n_thread); // divido il testo in base al numero di thread
+        double k = Math.floor(fileLen/n_thread); // divide text according to number of threads
         for (int i = 0; i < n_thread; i++) {
             Future f = executor.submit(new Parallel_thread("t" + i, i * k, ((i+1) * k) + (n_g - 1) - 1, n_g, text));
             futuresArray.add(f);
@@ -91,7 +87,7 @@ public class Main {
             //System.out.println("Finished all threads");
             end = System.currentTimeMillis();
 
-            // Per la stampa
+            // Print Map
             Set set = finalNgrams.entrySet();
             Iterator iterator = set.iterator();
             while(iterator.hasNext()) {
